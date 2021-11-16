@@ -17,6 +17,18 @@
 		1B7AA802273502C800BD79E0 /* VeriParkCaseStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7AA801273502C800BD79E0 /* VeriParkCaseStudyTests.swift */; };
 		1B7AA80C273502C800BD79E0 /* VeriParkCaseStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7AA80B273502C800BD79E0 /* VeriParkCaseStudyUITests.swift */; };
 		1B7AA80E273502C800BD79E0 /* VeriParkCaseStudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7AA80D273502C800BD79E0 /* VeriParkCaseStudyUITestsLaunchTests.swift */; };
+		1B7AA81C2735035700BD79E0 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1B7AA81B2735035700BD79E0 /* CryptoSwift */; };
+		1B7AA81E2735496300BD79E0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7AA81D2735496300BD79E0 /* Models.swift */; };
+		1B7AA8222736DBCE00BD79E0 /* RNCryptor in Frameworks */ = {isa = PBXBuildFile; productRef = 1B7AA8212736DBCE00BD79E0 /* RNCryptor */; };
+		1B7AA85427399ECC00BD79E0 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7AA85327399ECC00BD79E0 /* AuthModel.swift */; };
+		1B7AA8562739A02300BD79E0 /* Cryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7AA8552739A02300BD79E0 /* Cryption.swift */; };
+		1B7AA858273AE3ED00BD79E0 /* StockListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7AA857273AE3ED00BD79E0 /* StockListViewController.swift */; };
+		1B7AA85C273AE5B800BD79E0 /* StockListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7AA85B273AE5B800BD79E0 /* StockListTableViewCell.swift */; };
+		1B7AA860273BD00F00BD79E0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7AA85F273BD00E00BD79E0 /* MainViewController.swift */; };
+		1B7AA862273C3CBB00BD79E0 /* StockListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7AA861273C3CBB00BD79E0 /* StockListDetailViewController.swift */; };
+		1B7AA86A273C64BD00BD79E0 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 1B7AA869273C64BD00BD79E0 /* Charts */; };
+		1B7AA86D273D2DF700BD79E0 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 1B7AA86C273D2DF700BD79E0 /* SideMenu */; };
+		1B7AA871273D3A8F00BD79E0 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7AA870273D3A8F00BD79E0 /* SideMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,14 @@
 		1B7AA807273502C800BD79E0 /* VeriParkCaseStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeriParkCaseStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7AA80B273502C800BD79E0 /* VeriParkCaseStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeriParkCaseStudyUITests.swift; sourceTree = "<group>"; };
 		1B7AA80D273502C800BD79E0 /* VeriParkCaseStudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeriParkCaseStudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1B7AA81D2735496300BD79E0 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		1B7AA85327399ECC00BD79E0 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
+		1B7AA8552739A02300BD79E0 /* Cryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cryption.swift; sourceTree = "<group>"; };
+		1B7AA857273AE3ED00BD79E0 /* StockListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListViewController.swift; sourceTree = "<group>"; };
+		1B7AA85B273AE5B800BD79E0 /* StockListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListTableViewCell.swift; sourceTree = "<group>"; };
+		1B7AA85F273BD00E00BD79E0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1B7AA861273C3CBB00BD79E0 /* StockListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListDetailViewController.swift; sourceTree = "<group>"; };
+		1B7AA870273D3A8F00BD79E0 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B7AA8222736DBCE00BD79E0 /* RNCryptor in Frameworks */,
+				1B7AA86A273C64BD00BD79E0 /* Charts in Frameworks */,
+				1B7AA86D273D2DF700BD79E0 /* SideMenu in Frameworks */,
+				1B7AA81C2735035700BD79E0 /* CryptoSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,12 +125,13 @@
 		1B7AA7E6273502BF00BD79E0 /* VeriParkCaseStudy */ = {
 			isa = PBXGroup;
 			children = (
-				1B7AA7E7273502BF00BD79E0 /* AppDelegate.swift */,
-				1B7AA7E9273502BF00BD79E0 /* SceneDelegate.swift */,
-				1B7AA7EB273502BF00BD79E0 /* ViewController.swift */,
-				1B7AA7ED273502BF00BD79E0 /* Main.storyboard */,
-				1B7AA7F3273502C700BD79E0 /* Assets.xcassets */,
-				1B7AA7F5273502C700BD79E0 /* LaunchScreen.storyboard */,
+				1B7AA877273DCCE400BD79E0 /* Support */,
+				1B7AA876273DCA0000BD79E0 /* WebService */,
+				1B7AA875273DC9E100BD79E0 /* View */,
+				1B7AA874273DC9AB00BD79E0 /* Resources */,
+				1B7AA873273DC99300BD79E0 /* Model */,
+				1B7AA872273DC94F00BD79E0 /* Controllers */,
+				1B7AA878273DCDB300BD79E0 /* Base.Iproj */,
 				1B7AA7F8273502C700BD79E0 /* Info.plist */,
 				1B7AA7F0273502BF00BD79E0 /* VeriParkCaseStudy.xcdatamodeld */,
 			);
@@ -130,6 +155,69 @@
 			path = VeriParkCaseStudyUITests;
 			sourceTree = "<group>";
 		};
+		1B7AA872273DC94F00BD79E0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B7AA85F273BD00E00BD79E0 /* MainViewController.swift */,
+				1B7AA861273C3CBB00BD79E0 /* StockListDetailViewController.swift */,
+				1B7AA857273AE3ED00BD79E0 /* StockListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1B7AA873273DC99300BD79E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B7AA81D2735496300BD79E0 /* Models.swift */,
+				1B7AA85327399ECC00BD79E0 /* AuthModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B7AA874273DC9AB00BD79E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B7AA8552739A02300BD79E0 /* Cryption.swift */,
+				1B7AA870273D3A8F00BD79E0 /* SideMenu.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1B7AA875273DC9E100BD79E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B7AA85B273AE5B800BD79E0 /* StockListTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B7AA876273DCA0000BD79E0 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				1B7AA7EB273502BF00BD79E0 /* ViewController.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		1B7AA877273DCCE400BD79E0 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				1B7AA7E9273502BF00BD79E0 /* SceneDelegate.swift */,
+				1B7AA7E7273502BF00BD79E0 /* AppDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		1B7AA878273DCDB300BD79E0 /* Base.Iproj */ = {
+			isa = PBXGroup;
+			children = (
+				1B7AA7ED273502BF00BD79E0 /* Main.storyboard */,
+				1B7AA7F5273502C700BD79E0 /* LaunchScreen.storyboard */,
+				1B7AA7F3273502C700BD79E0 /* Assets.xcassets */,
+			);
+			path = Base.Iproj;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +234,12 @@
 			dependencies = (
 			);
 			name = VeriParkCaseStudy;
+			packageProductDependencies = (
+				1B7AA81B2735035700BD79E0 /* CryptoSwift */,
+				1B7AA8212736DBCE00BD79E0 /* RNCryptor */,
+				1B7AA869273C64BD00BD79E0 /* Charts */,
+				1B7AA86C273D2DF700BD79E0 /* SideMenu */,
+			);
 			productName = VeriParkCaseStudy;
 			productReference = 1B7AA7E4273502BF00BD79E0 /* VeriParkCaseStudy.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +312,12 @@
 				Base,
 			);
 			mainGroup = 1B7AA7DB273502BF00BD79E0;
+			packageReferences = (
+				1B7AA81A2735035700BD79E0 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+				1B7AA8202736DBCE00BD79E0 /* XCRemoteSwiftPackageReference "RNCryptor" */,
+				1B7AA868273C64BD00BD79E0 /* XCRemoteSwiftPackageReference "Charts" */,
+				1B7AA86B273D2DF500BD79E0 /* XCRemoteSwiftPackageReference "SideMenu" */,
+			);
 			productRefGroup = 1B7AA7E5273502BF00BD79E0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -262,9 +362,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B7AA7EC273502BF00BD79E0 /* ViewController.swift in Sources */,
+				1B7AA8562739A02300BD79E0 /* Cryption.swift in Sources */,
+				1B7AA85427399ECC00BD79E0 /* AuthModel.swift in Sources */,
+				1B7AA871273D3A8F00BD79E0 /* SideMenu.swift in Sources */,
+				1B7AA862273C3CBB00BD79E0 /* StockListDetailViewController.swift in Sources */,
+				1B7AA860273BD00F00BD79E0 /* MainViewController.swift in Sources */,
 				1B7AA7E8273502BF00BD79E0 /* AppDelegate.swift in Sources */,
+				1B7AA85C273AE5B800BD79E0 /* StockListTableViewCell.swift in Sources */,
 				1B7AA7EA273502BF00BD79E0 /* SceneDelegate.swift in Sources */,
 				1B7AA7F2273502BF00BD79E0 /* VeriParkCaseStudy.xcdatamodeld in Sources */,
+				1B7AA81E2735496300BD79E0 /* Models.swift in Sources */,
+				1B7AA858273AE3ED00BD79E0 /* StockListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,6 +736,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1B7AA81A2735035700BD79E0 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		1B7AA8202736DBCE00BD79E0 /* XCRemoteSwiftPackageReference "RNCryptor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RNCryptor/RNCryptor.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		1B7AA868273C64BD00BD79E0 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = exactVersion;
+				version = 4.0.1;
+			};
+		};
+		1B7AA86B273D2DF500BD79E0 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1B7AA81B2735035700BD79E0 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1B7AA81A2735035700BD79E0 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+		1B7AA8212736DBCE00BD79E0 /* RNCryptor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1B7AA8202736DBCE00BD79E0 /* XCRemoteSwiftPackageReference "RNCryptor" */;
+			productName = RNCryptor;
+		};
+		1B7AA869273C64BD00BD79E0 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1B7AA868273C64BD00BD79E0 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+		1B7AA86C273D2DF700BD79E0 /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1B7AA86B273D2DF500BD79E0 /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		1B7AA7F0273502BF00BD79E0 /* VeriParkCaseStudy.xcdatamodeld */ = {

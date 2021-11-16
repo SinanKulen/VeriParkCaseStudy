@@ -1,0 +1,61 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Charts",
+        "repositoryURL": "https://github.com/danielgindi/Charts",
+        "state": {
+          "branch": null,
+          "revision": "8d134a78bb2cb9e7a0f05ecbd5880bb05cd02863",
+          "version": "4.0.1"
+        }
+      },
+      {
+        "package": "CryptoSwift",
+        "repositoryURL": "https://github.com/krzyzanowskim/CryptoSwift.git",
+        "state": {
+          "branch": "main",
+          "revision": "19d021f49bef6373c473acbcdbb4da60273dc4d6",
+          "version": null
+        }
+      },
+      {
+        "package": "RNCryptor",
+        "repositoryURL": "https://github.com/RNCryptor/RNCryptor.git",
+        "state": {
+          "branch": "master",
+          "revision": "0a2a0204f538f95a4b20f0d008bef4b6b21d2f00",
+          "version": null
+        }
+      },
+      {
+        "package": "SideMenu",
+        "repositoryURL": "https://github.com/jonkykong/SideMenu.git",
+        "state": {
+          "branch": null,
+          "revision": "8bd4fd128923cf5494fa726839af8afe12908ad9",
+          "version": "6.5.0"
+        }
+      },
+      {
+        "package": "swift-algorithms",
+        "repositoryURL": "https://github.com/apple/swift-algorithms",
+        "state": {
+          "branch": null,
+          "revision": "2327673b0e9c7e90e6b1826376526ec3627210e4",
+          "version": "0.2.1"
+        }
+      },
+      {
+        "package": "swift-numerics",
+        "repositoryURL": "https://github.com/apple/swift-numerics",
+        "state": {
+          "branch": null,
+          "revision": "6583ac70c326c3ee080c1d42d9ca3361dca816cd",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
